@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function About() {
   return (
     <Section id="about" title="Hello there!" tabIndex={6} easterEgg={true}>
-      <p className="text-pretty leading-relaxed">
+      <p className="text-pretty leading-loose">
         I&apos;m <Link href="#" className="font-bold px-0">marshyi</Link>!<br />
-        I am a front-end developer - in training.
+        I am a <span className="font-bold underline decoration-4 decoration-blue-700">front-end developer</span> - in training.
         <Image
           src="/bubbles.png"
           width={18}

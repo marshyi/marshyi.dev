@@ -6,7 +6,7 @@ export default function Skills() {
     <Section title="Skills" tabIndex={8}>
       <div className="flex flex-col w-7/12 space-y-10 md:flex-row md:space-x-16 md:space-y-0">
         <div className="space-y-3">
-          <h3 className="text-sm font-medium uppercase">Languages</h3>
+          <h3 className="text-sm font-bold uppercase">Languages</h3>
           <div className="flex flex-row space-x-3 invert">
             <Image
               src="/html5.svg"
@@ -32,7 +32,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="space-y-3">
-          <h3 className="text-sm font-medium uppercase">Tools</h3>
+          <h3 className="text-sm font-bold uppercase">Tools</h3>
           <div className="flex flex-row space-x-3 invert">
             <Image
               src="/git.svg"
@@ -51,7 +51,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="space-y-3">
-          <h3 className="text-sm font-medium uppercase">Frameworks</h3>
+          <h3 className="text-sm font-bold uppercase">Frameworks</h3>
           <div className="flex flex-row space-x-3 invert">
             <Image
               src="/react.svg"

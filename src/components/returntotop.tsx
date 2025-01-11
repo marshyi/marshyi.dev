@@ -39,7 +39,7 @@ export default function ReturnToTop () {
     >
       <a
         href="#"
-        className="flex items-center justify-center w-8 h-8 invert"
+        className="flex items-center justify-center w-10 h-10 invert"
         tabIndex={0}
         onClick={handleClick}
       >
