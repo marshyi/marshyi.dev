@@ -32,10 +32,10 @@ export default function NavBar() {
       <h1 className="font-mono text-xl"><Link href="/" tabIndex={1} className="hover:bg-blue-700">marshyi.dev</Link></h1>
       <nav>
         <ul className="flex space-x-4 font-mono text-sm font-bold lowercase">
-          <li className={activeSection === 'about' ? 'bg-blue-700' : ''}><Link href="#about" tabIndex={2} className="hover:bg-blue-700">About</Link></li>
-          <li className={activeSection === 'projects' ? 'bg-blue-700' : ''}><Link href="#projects" tabIndex={3} className="hover:bg-blue-700">Projects</Link></li>
-          <li className={activeSection === 'skills' ? 'bg-blue-700' : ''}><Link href="#skills" tabIndex={4} className="hover:bg-blue-700">Skills</Link></li>
-          <li className={activeSection === 'contact' ? 'bg-blue-700' : ''}><Link href="#contact" tabIndex={5} className="hover:bg-blue-700">Contact</Link></li>
+          <li className={activeSection === 'about' ? 'bg-blue-700' : 'hover:bg-blue-700'}><Link href="#about" tabIndex={2}>About</Link></li>
+          <li className={activeSection === 'projects' ? 'bg-blue-700' : 'hover:bg-blue-700'}><Link href="#projects" tabIndex={3}>Projects</Link></li>
+          <li className={activeSection === 'skills' ? 'bg-blue-700' : 'hover:bg-blue-700'}><Link href="#skills" tabIndex={4}>Skills</Link></li>
+          <li className={activeSection === 'contact' ? 'bg-blue-700' : 'hover:bg-blue-700'}><Link href="#contact" tabIndex={5}>Contact</Link></li>
         </ul>
       </nav>
     </header>
