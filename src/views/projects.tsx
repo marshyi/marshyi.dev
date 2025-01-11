@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <Section title="Projects" tabIndex={7}>
       <p className="text-pretty leading-loose">
-        I'm currently working on building a portfolio of projects. <br />
+        I&apos;m currently working on building a portfolio of projects. <br />
         Stay tuned for updates!
         <Image
           src="/bubble-tea.png"
