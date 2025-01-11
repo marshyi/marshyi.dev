@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { Poppins } from "next/font/google";
+import { Quattrocento_Sans } from "next/font/google";
 import Cursor from "@/components/cursor";
 import NavBar from "@/components/navbar";
 import ReturnToTop from "@/components/returntotop";
 
-const poppins = Poppins({ subsets:['latin'], weight:"400" })
+const quattrocento = Quattrocento_Sans({ subsets:['latin'], weight:"400" })
 
 export const metadata: Metadata = {
   title: "marshyi.dev",
@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} ${poppins.className} flex flex-col items-center justify-center overflow-y-hidden font-sans antialiased text-stone-50 bg-black outline-none selection:bg-stone-50 selection:text-black`}
+        className={`${quattrocento.className} flex flex-col items-center justify-center overflow-y-hidden font-sans antialiased text-stone-50 bg-black outline-none selection:bg-stone-50 selection:text-black`}
       >
         <Cursor />
         <NavBar />
