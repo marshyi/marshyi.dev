@@ -7,7 +7,7 @@ export default function About() {
     <Section id="about" title="Hello there!" tabIndex={6} easterEgg={true}>
       <p className="text-pretty leading-relaxed">
         I&apos;m <Link href="#" className="font-bold px-0">marshyi</Link>!<br />
-        I&apos;m a front-end developer in-training.
+        I am a front-end developer - in training.
         <Image
           src="/bubbles.png"
           width={18}
@@ -16,7 +16,7 @@ export default function About() {
           alt="Bubbles Emoji"
         />
         <br/>
-        I&apos;m currently learning React & Next.js.
+        Currently focusing on learning React & Next.js.
         <Image
           src="/sparkles.png"
           width={18}
