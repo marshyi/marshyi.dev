@@ -2,8 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  images: { unoptimized: true },
-  basePath: '/marshyi.dev'
+  images: { unoptimized: true }
 };
 
 export default nextConfig;
