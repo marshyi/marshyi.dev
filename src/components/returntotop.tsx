@@ -1,0 +1,56 @@
+"use client"
+
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+
+export default function ReturnToTop () {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const mainElement = document.querySelector("main");
+    
+    if (!mainElement) return;
+
+    const handleScroll = () => {
+      if (mainElement.scrollTop > 20) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    mainElement.addEventListener("scroll", handleScroll);
+
+    return () => mainElement.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const mainElement = document.querySelector("main");
+    mainElement?.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <div
+      id="to-top"
+      className={`fixed bottom-5 right-5 p-2 bg-black z-10 transition-all duration-500 ${
+        isVisible ? "opacity-100" : "opacity-0 invisible"
+      }`}
+    >
+      <a
+        href="#"
+        className="flex items-center justify-center w-8 h-8 invert"
+        tabIndex={0}
+        onClick={handleClick}
+      >
+        <Image
+          src="/up.svg"
+          width={100}
+          height={100}
+          className="inline"
+          alt="Return To Top"
+        />
+      </a>
+    </div>
+  );
+};
