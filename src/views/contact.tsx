@@ -5,7 +5,10 @@ export default function Contact() {
   return (
     <Section id="contact" title="Let's get in touch!" tabIndex={9}>
       <p className="text-pretty leading-loose mt-8">
-        Email me about that <span className="font-bold underline decoration-4 decoration-blue-700">new project</span> you want to work on, or just to talk a little! <br />
+        Got a <span className="font-bold underline decoration-4 decoration-blue-700">project in mind</span>, or just looking to connect?<br />
+        I'd love to hear from you!<br />
+        <br />
+        Whether it's to collaborate or just say hello, feel free to reach out.<br />
         You can reach me at <Link href="mailto:hi@marshyi.dev" target="_blank"  className="font-mono bg-blue-700 hover:bg-red-600">hi@marshyi.dev</Link>
       </p>
     </Section>

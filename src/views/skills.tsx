@@ -29,6 +29,13 @@ export default function Skills() {
               className="w-10 transition duration-300 hover:scale-150 hover:rotate-3"
               alt="JavaScript logo"
             />
+            <Image
+              src="/typescript.svg"
+              width={28}
+              height={28}
+              className="w-10 transition duration-300 hover:scale-150 hover:rotate-3"
+              alt="TypeScript logo"
+            />
           </div>
         </div>
         <div className="space-y-3">
@@ -53,6 +60,13 @@ export default function Skills() {
         <div className="space-y-3">
           <h3 className="text-sm font-bold uppercase">Frameworks</h3>
           <div className="flex flex-row space-x-3 invert">
+            <Image
+              src="/tailwindcss.svg"
+              width={28}
+              height={28}
+              className="w-10 transition duration-300 hover:scale-150 hover:rotate-3"
+              alt="Tailwind CSS logo"
+            />
             <Image
               src="/react.svg"
               width={28}
