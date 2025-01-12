@@ -7,7 +7,7 @@ export default function About() {
     <Section id="about" title="Hello there!" tabIndex={6} easterEgg={true}>
       <div className="w-10/12 lg:w-7/12">
         <p className="text-pretty leading-loose">
-          I&apos;m <Link href="#" className="font-bold px-0 pt-1">marshyi</Link>!<br />
+          I&apos;m <Link href="#" tabIndex={-1} className="font-bold px-0 pt-1">marshyi</Link>!<br />
           I am a <span className="font-bold underline decoration-4 decoration-blue-700">front-end developer</span> - in training.
           <Image
             src="/bubbles.png"

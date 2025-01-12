@@ -40,7 +40,7 @@ export default function ReturnToTop () {
       <a
         href="#"
         className="flex items-center justify-center w-10 h-10 invert"
-        tabIndex={0}
+        tabIndex={-1}
         onClick={handleClick}
       >
         <Image
