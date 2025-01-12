@@ -77,7 +77,7 @@ export default function Cursor() {
   return (
     <div
       ref={cursorRef }
-      className="hidden md:block fill-blue-700 fixed top-0 left-0 mix-blend-difference opacity-0 pointer-events-none z-50"
+      className="hidden xl:block fill-blue-700 fixed top-0 left-0 mix-blend-difference opacity-0 pointer-events-none z-50"
     >
       <svg height="10" width="10">
         <circle cx="5" cy="5" r="4" strokeWidth="0"></circle>

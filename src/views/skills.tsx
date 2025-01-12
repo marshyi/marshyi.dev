@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <Section title="Skills" tabIndex={8}>
-      <div className="flex flex-col w-7/12 mt-8 space-y-10 md:flex-row md:space-x-16 md:space-y-0">
+      <div className="flex flex-col w-10/12 mt-8 space-y-10 sm:landscape:flex-row sm:landscape:space-x-16 sm:landscape:space-y-0 lg:flex-row lg:w-7/12 lg:space-x-16 lg:space-y-0">
         <div className="space-y-3">
           <h3 className="text-sm font-bold uppercase">Languages</h3>
           <div className="flex flex-row space-x-3 invert">
