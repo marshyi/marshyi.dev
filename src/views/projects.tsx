@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <Section title="Projects" tabIndex={7}>
-      <div className="flex w-full overflow-x-scroll space-x-6 px-8 mt-8 scroll-smooth sm:landscape:mt-4 sm:landscape:justify-center lg:portrait:justify-start lg:justify-center lg:w-9/12 lg:pt-3 lg:mb-6">
+      <div className="flex w-full overflow-x-scroll space-x-6 px-8 mt-8 scroll-smooth sm:landscape:mt-4 sm:landscape:justify-center lg:portrait:justify-start lg:portrait:w-full lg:justify-center lg:w-9/12 lg:pt-3 lg:mb-6">
         <div className="group relative flex-none w-3/4 h-fit aspect-video rounded-lg border-2 border-blue-700 sm:landscape:w-1/4 lg:w-96">
           <Link href="" tabIndex={-1} className="flex p-0 blur-[1px] group-hover:blur-none">
             <Image
