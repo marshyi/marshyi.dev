@@ -65,7 +65,7 @@ export default function Projects() {
       <div className="w-10/12 lg:w-7/12">
         <p className="text-pretty leading-loose sm:landscape:mt-2">
           I&apos;m currently working on <span className="font-bold underline decoration-4 decoration-blue-700">building a portfolio</span> of projects. <br />
-          <span className="font-bold py-[0.3rem] px-2 bg-blue-700">Stay tuned</span> for updates!
+          <span className="font-bold py-1 px-3 bg-blue-700">Stay tuned</span> for updates!
         </p>
       </div>
     </Section>
