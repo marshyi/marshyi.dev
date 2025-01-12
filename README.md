@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# marshyi.dev
 
-## Getting Started
+**marshyi.dev** is the personal developer portfolio website of **marshyi**, showcasing their skills, projects, and expertise.
 
-First, run the development server:
+<br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Development Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is built using [**Next.js**](https://nextjs.org/) and was initially created with [**create-next-app**](https://nextjs.org/docs/app/api-reference/cli/create-next-app/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+It is hosted on [**GitHub Pages**](https://pages.github.com/) for seamless and efficient deployment.
+<br />
+<br />
+<br />
+The website leverages modern technologies, including:
+- [**TypeScript**](https://www.typescriptlang.org/): For a strongly-typed, scalable, and developer-friendly coding experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [**Tailwind CSS**](https://tailwindcss.com/): For rapid and highly customizable UI development.
 
-## Learn More
+<br />
 
-To learn more about Next.js, take a look at the following resources:
+## Additional Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Design**: Ensures a consistent and polished user experience across devices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **SEO Optimization**: Built-in features from Next.js to enhance search engine visibility.
 
-## Deploy on Vercel
+- **Performance Focused**: Optimized for fast load times using Next.js’ image optimization and static site generation capabilities.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Scalability**: The use of TypeScript and modular Tailwind CSS ensures future updates and additions are seamless.
