@@ -10,7 +10,7 @@ export default function Contact() {
           I&apos;d love to hear from you!<br />
           <br />
           Whether it&apos;s to collaborate or just say hello, feel free to reach out.<br />
-          You can reach me at <Link href="mailto:hi@marshyi.dev" target="_blank"  className="font-mono bg-blue-700 hover:bg-red-600">hi@marshyi.dev</Link>
+          You can reach me at <Link href="mailto:hi@marshyi.dev" target="_blank"  className="py-1 px-3 font-mono bg-blue-700 hover:text-black hover:bg-stone-50">hi@marshyi.dev</Link>
         </p>
       </div>
     </Section>

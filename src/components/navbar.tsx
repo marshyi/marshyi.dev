@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import clsx from "clsx";
 
 export default function NavBar() {
   const [activeSection, setActiveSection] = useState('');
@@ -33,10 +34,42 @@ export default function NavBar() {
         <h1 className="font-mono text-xl sm:pt-5 md:pt-0"><Link href="#about" tabIndex={1}>marshyi.dev</Link></h1>
         <nav>
           <ul className="flex space-x-4 font-mono text-sm font-bold lowercase">
-            <li className={activeSection === 'about' ? 'bg-blue-700' : 'hover:bg-red-600'}><Link href="#about" tabIndex={2}>About</Link></li>
-            <li className={activeSection === 'projects' ? 'bg-blue-700' : 'hover:bg-red-600'}><Link href="#projects" tabIndex={3}>Projects</Link></li>
-            <li className={activeSection === 'skills' ? 'bg-blue-700' : 'hover:bg-red-600'}><Link href="#skills" tabIndex={4}>Skills</Link></li>
-            <li className={activeSection === 'contact' ? 'bg-blue-700' : 'hover:bg-red-600'}><Link href="#contact" tabIndex={5}>Contact</Link></li>
+            <li>
+              <Link
+                href="#about"
+                tabIndex={2}
+                className={clsx('py-1 px-3 hover:text-black hover:bg-stone-50', { 'bg-blue-700': activeSection === 'about' },)}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#projects"
+                tabIndex={3}
+                className={clsx('py-1 px-3 hover:text-black hover:bg-stone-50', { 'bg-blue-700': activeSection === 'projects' },)}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#skills"
+                tabIndex={4}
+                className={clsx('py-1 px-3 hover:text-black hover:bg-stone-50', { 'bg-blue-700': activeSection === 'skills' },)}
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#contact"
+                tabIndex={5}
+                className={clsx('py-1 px-3 hover:text-black hover:bg-stone-50', { 'bg-blue-700': activeSection === 'contact' },)}
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

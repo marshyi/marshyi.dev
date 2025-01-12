@@ -33,7 +33,7 @@ export default function ReturnToTop () {
   return (
     <div
       id="to-top"
-      className={`fixed bottom-5 right-5 p-2 bg-black z-10 transition-all duration-500 ${
+      className={`fixed bottom-10 right-10 bg-blue-700 z-10 transition-all duration-500 ${
         isVisible ? "opacity-100" : "opacity-0 invisible"
       }`}
     >
@@ -47,7 +47,7 @@ export default function ReturnToTop () {
           src="/up.svg"
           width={100}
           height={100}
-          className="inline"
+          className="inline w-8"
           alt="Return To Top"
         />
       </a>
