@@ -5,9 +5,9 @@ export default function Skills() {
   return (
     <Section title="Skills" tabIndex={8}>
       <div className="w-10/12 lg:w-7/12">
-        <p className="w-10/12 lg:w-full text-pretty leading-loose mt-8">
-          I am <span className="font-bold py-1 px-3 bg-blue-700">building up experience</span> working with modern technologies<br />
-          and tools such as TypeScript, React, Next.js, and Tailwind CSS.<br />
+        <p className="w-10/12 lg:w-5/12 text-pretty leading-loose mt-8">
+          I am <span className="font-bold py-1 px-3 bg-blue-700">building up experience</span> working
+          with modern technologies and tools such as TypeScript, React, Next.js, and Tailwind CSS.
           I&apos;m always eager to learn new things and <span className="font-bold underline decoration-4 decoration-blue-700">improve my skills</span>.
         </p>
       </div>
