@@ -88,6 +88,13 @@ export default function Skills() {
               className="w-8 transition duration-300 hover:scale-150 hover:rotate-3"
               alt="Next.js logo"
             />
+            <Image
+              src="/mocha.svg"
+              width={28}
+              height={28}
+              className="w-8 transition duration-300 hover:scale-150 hover:rotate-3"
+              alt="Mocha logo"
+            />
           </div>
         </div>
       </div>
